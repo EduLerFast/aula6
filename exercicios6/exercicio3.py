@@ -17,7 +17,31 @@ while True:
 Idade= int (input('digite sua idade:'))    
 while Idade<0 or Idade> 150:
          Idade= int (input('digite sua idade:'))
-        
-    #salario=(input('coleque seu salario'))
-    #sexo=(input('coloque seu sexo"f" ou "m" '))
-    #estadocivil=(input('coleque seu salario'))
+print(f'digitou sua idade entre 0 e 150 =>{Idade}')
+
+salario= float (input('digite seu salario:'))    
+while salario<=0 :
+         salario= float (input('digite seu salario:'))
+print(f'digitou seu salario maior que 0 =>{Idade}')
+
+while True:
+    sexo = input('digite seu sexo:')
+    if sexo == 'm':
+     print(f'digitou o sexo =>masculino')
+    elif sexo==('f'):
+     print (f'digitou o sexo =>feminino')
+     break
+
+while True:
+    estadocivil = input('digite seu estado civil:')
+    if estadocivil == 's':
+     print(f'digitou o estado civil =>solteiro')
+    elif estadocivil==('c'):
+     print (f'digitou o estado civil =>casado')
+    elif estadocivil==('v'):
+     print (f'digitou o estado civil =>viuvio')
+    elif estadocivil==('d'):
+     print (f'digitou o estado civil =>divorciado')
+
+     break
+
